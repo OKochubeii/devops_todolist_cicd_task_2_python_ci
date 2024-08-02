@@ -1,6 +1,6 @@
 name: python-deployment-task
 
-run-name: ${{ github.actor }} - ${{ github.ref_name}} -${{ github.sha }}
+run-name: ${{ github.actor }} - ${{ github.sha }}
 
 on:
   push:
